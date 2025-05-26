@@ -8,7 +8,7 @@ function Header() {
             <div className="header-container container-md">
                 <nav className="navbar navbar-expand-lg bg-body-tertiary bg-primary py-0">
                     <div className="container-fluid bg-primary py-2">
-                        <Link className="navbar-brand text-white d-flex gap-3 align-items-center" to={'/main'}>
+                        <Link className="navbar-brand text-white d-flex gap-3 align-items-center" to={'home'}>
                             <i className="bi bi-stickies-fill bi-ticket-perforated fs-2 "></i>
                             <h3 className="fw-bold">Event Spot</h3>
                         </Link>

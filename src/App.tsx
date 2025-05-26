@@ -13,12 +13,12 @@ const routes: Routes = [
     {
         index: true,
         loader: () => {
-            return redirect('main')
+            return redirect('')
         }
     },
 
     {
-        path: 'main',
+        path: '',
         Component: Main,
         children: [
             {

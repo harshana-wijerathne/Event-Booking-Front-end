@@ -1,4 +1,5 @@
 import './EventCard.css'
+import {Link} from "react-router-dom";
 interface EventCardProps {
     img: string;
     title: string;
@@ -11,7 +12,7 @@ interface EventCardProps {
 function EventCard({img, title, date, time, location, price}: EventCardProps) {
     return (
         <>
-            <div className="card-img-top bg-white rounded" style={{width: '18rem', height: '25rem'}}>
+            <Link to="/eventdetails" className="card-img-top bg-white rounded" style={{width: '18rem', height: '25rem'}}>
                 <div id="card-img" className="rounded" style={{backgroundImage: `url(${img})`}}></div>
                 <div className="card-body p-3 d-flex flex-column gap-2">
                     <h6>{title}</h6>
@@ -25,7 +26,7 @@ function EventCard({img, title, date, time, location, price}: EventCardProps) {
                     </div>
                 </div>
 
-            </div>
+            </Link>
 
         </>
     );

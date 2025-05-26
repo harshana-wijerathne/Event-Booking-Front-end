@@ -1,0 +1,13 @@
+#event-details-main{
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.review-card {
+    transition: transform 0.3s;
+}
+.review-card:hover {
+    transform: translateY(-5px);
+}
+.rating {
+    color: #ffc107;
+}
