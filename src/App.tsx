@@ -10,6 +10,12 @@ import Home from "./pages/Home/Home.tsx";
 
 type Routes = RouteObject[];
 const routes: Routes = [
+    {
+        index: true,
+        loader: () => {
+            return redirect('main')
+        }
+    },
 
     {
         path: 'main',

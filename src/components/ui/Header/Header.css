@@ -1,0 +1,26 @@
+.container-fluid{
+    background-color: #1A237E !important;
+}
+
+.header-container{
+    box-sizing: border-box !important;
+}
+
+.active{
+    border-bottom: 2px solid #fff !important;
+}
+
+/* Change the color of the navbar toggler icon */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* If you want to change the border color too */
+.navbar-toggler {
+    border-color: white;
+}
+
+#event-container{
+    background-color: white !important;
+}
+
